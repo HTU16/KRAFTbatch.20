@@ -1,0 +1,14 @@
+1-programızda yazılan gereksiz kod fazlalığından kurtarır.
+2-Farklı tanımlamalar sayesinde esneklis sağlar
+ çok biçimlilik
+  Alpaslan bey  öğretmen,öğrenci,tester
+
+  Alpaslan alpaslan=new tester();
+  Alpaslan alpaslan=new Ogretmen();
+
+3-Karmaşıklığı azaltır. Geri okunabilirliği arttırır.
+
+4-hata ayıklamayı kolaylaştırır.
+
+5-Güvenliği artırır. (Bağlantılı metotları indirgediği için hatalı işlem yapmayı
+engellemeye yardımcı olur.)
