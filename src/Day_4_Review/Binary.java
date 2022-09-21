@@ -3,6 +3,10 @@ package Day_4_Review;
 public class Binary {
     public static void main(String[] args) {
 
+        // Windows ve r tuşuna basarak charmap yazıyoruz ve karakter eşlemi açıyoruz.
+
+        // https://www.rapidtables.com/convert/number/binary-to-decimal.html
+
 //            54
 
         //0 üstü sayısı için U+2070

@@ -1,6 +1,10 @@
 package Day_4_Review;
 
 public class Data_Types_review {
+
+    // DÖNÜŞTÜRME (CONVERTING)  2 ye ayrılır.
+    // widening casting<<< küçük datadan büyük dataya sıralar. 'otomatik' kapalı dönüştürme ( implicit conversion / casting up)
+    // narrowing casting<<< büyük datadan küçük olana sıralar. 'manuel'açıktan dönüştürme ( explicit coversion / casting down)
     public static void main(String[] args) {
 
         byte b;

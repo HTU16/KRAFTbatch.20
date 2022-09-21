@@ -25,7 +25,7 @@ public class MethodReturnType {
         return false;
     }
 
-    public static boolean primeNumber(int num){
+    public static boolean primeNumber(int num){             // ASAL SAYI SORUSU
 
         if (num==0 || num==1){
             return false;

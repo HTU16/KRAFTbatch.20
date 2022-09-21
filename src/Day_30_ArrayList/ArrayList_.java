@@ -9,30 +9,29 @@ public class ArrayList_ {
         //size(),add(),set(),isEmty()
 
         ArrayList<String> names = new ArrayList<>();
-        names.add("Ahmet");
-        names.add("Mehmet");
-        names.add("Ayşe");
-        names.add("Zehra");
+               names.add("FATIH");
+               names.add("YAVUZ");
+               names.add("YILDIRIM");
+               names.add("KANUNI");
 
-        System.out.println("names.size() = " + names.size());
-        System.out.println("names.toString() = " + names.toString());
-        System.out.println("names = " + names);
+               System.out.println("names.size() =" + names.size());
+               System.out.println("names.toString() = " + names.toString());
+               System.out.println("names = " + names);
 
-        names.set(2,"Fatma");
-        System.out.println("names = " + names);
+              names.set(2,"SOKULLU");         //SET : SİLER VE YERİNE YENİ  BİR ŞEY EKLER.. KAÇINCI SIRAYA YAZARSAN ORAYA GİRER .************************
+               System.out.println("names = " + names);
 
-        names.add(2,"Ayşe");
-        System.out.println("names = " + names);
-        System.out.println("names.size() = " + names.size());
+               names.add(2,"YILDIRIM");  // ADD: EKLEME YAPAR..****************************************************************************
+               System.out.println("names = " + names);
 
-        System.out.println("names.isEmpty() = " + names.isEmpty());
+               System.out.println("names.isEmpty() = " + names.isEmpty());      //BOŞ OLUP OLMADIĞINI KONTROL EDER.*************************************
 
-        names.clear();                                        //size artık sıfır oldu
-        System.out.println("names.isEmpty() = " + names.isEmpty());
-        boolean isEmpty = names.size() == 0;
-        System.out.println(names.size()==0);
-        System.out.println("isEmpty = " + isEmpty);
+              names.clear();                   //İÇERİĞİ SİLMEYE YARAR.*********************************************************************************
+               System.out.println("names.isEmpty() = " + names.isEmpty());
 
+              boolean b=names.size()==0;
+               System.out.println(names.size()==0);
+               System.out.println("b = " + b);
 
-    }
+                  }
 }

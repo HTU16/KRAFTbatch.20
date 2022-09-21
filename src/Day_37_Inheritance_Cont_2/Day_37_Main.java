@@ -6,14 +6,6 @@ public class Day_37_Main {
 
     public static void main(String[] args) {
 
-
-
-
-
-
-
-
-
 /*Tester enes=new Tester();
 Developer alpaslan=new Developer();
 ProjectOwner salih=new ProjectOwner();*/

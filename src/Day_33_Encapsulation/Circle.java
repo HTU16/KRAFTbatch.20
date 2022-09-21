@@ -1,4 +1,4 @@
-package Day_33_Encapsulation;
+package Day_33_Encapsulation;                       //DATA HIDDING - veri gizleme demek yeterlidir.
 
 public class Circle {
 
@@ -9,8 +9,9 @@ public class Circle {
 
     public Circle(double radius){
 
-        this.radius=radius;
-    }
+        this.radius=radius;                                       //void olursa this name
+          }                                                                  //return döndürür.Stringler int boolean...
+
 
     public double getRadius() {
         return this.radius;

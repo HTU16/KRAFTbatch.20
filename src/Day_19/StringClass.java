@@ -4,6 +4,7 @@ public class StringClass {
 
     public static void main(String[] args) {
 
+                           //      lenght:  boşluk arada olsa bile  boşluğu da sayar. kac adet harf oldugunu buluruz..
         String str = "Persembe";
         String str2 = "";
 //        System.out.println(str2.length());
@@ -13,7 +14,7 @@ public class StringClass {
 //        System.out.println(i);
 
 //        String str3 = "Persembe ve Cuma guNLERİ";
-//
+//                                                     lower: hepsini küçük yapar..           upper: hepsini büyük yapar.
 //        System.out.println(str3.toUpperCase());
 //        System.out.println(str3.toLowerCase());
 
@@ -21,7 +22,7 @@ public class StringClass {
 //        System.out.println("str.charAt(7) = " + str.charAt(str.length()-1));
 //        System.out.println("str.charAt(6) = " + str.charAt(str.length()-2));
 //
-//        char ch = str.charAt(0);
+//        char ch = str.charAt(0);                 // saymaya 0 dan basla.. kacıncı sıradaki harfi verir.. son harf için -1 yaz..
 //        System.out.println("ch = " + ch);
 
 

@@ -17,6 +17,8 @@ public class ArrayList_2 {
 //        }
 //        System.out.println("nums = " + nums);
 
+        //REMOVE: YAZILAN YERİ KAYBEDER.SİLİNİR YOK OLUR.***************************
+
         nums.remove(1);
         System.out.println("nums = " + nums);
 

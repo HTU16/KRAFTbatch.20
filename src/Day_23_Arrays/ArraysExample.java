@@ -1,136 +1,150 @@
 package Day_23_Arrays;
 
+import java.util.Arrays;
 import java.util.Random;
 
 public class ArraysExample {
 
     public static void main(String[] args) {
-/*
+
+
         String[] str = new String[5];
-        str[1] = "mehmet";
-        str[4] = "ahmet";
-        // System.out.println(str[3]);
-        // int türünde bir array oluşturun
-        // tüm indekslere farklı değerler atayın.
-        //ekrana sırası ile yazdırın.
 
-        int deger[];
-        deger = new int[3];
-        deger[0] = 66;
-        deger[2] = 256;
+        String str1[] = new String[6];
 
-        // System.out.println(deger[0]+25);
-        //System.out.println(2*deger[1]+25);
-        //System.out.println(5*deger[2]/2+36);
-        //for dögüsü ile tümünü yazdırın
+        String[] str2;
+        str2 = new String[7];
 
-      /* for(int i=0; i<3; i++){
+        String str4[];
+        str4 = new String[20];  //0123456789...19
 
-            System.out.println(deger[i]*deger[i]);
-        }*/
+        int[] sayi1 = new int[17];
+        boolean[] sayi2 = new boolean[7];
+        char[] sayi = new char[4];           ///köşeli parantez içindeki sayılara index numarası denir.
+        double[] a = new double[8];
+        String[] b = new String[0];
 
-// for döngüsünde arayimizin içerindeki sayıların tümünün karelerini alarak ekrana yazdırın
+        String[] st = new String[5];
+        System.out.println(st[0]);  // sonuc olarak null gelir.
+
+        int[] i = new int[5];
+        System.out.println(i[0]);   // sonuc 0 olarak cıkar.
+
+        int[] abc = new int[3];
+        abc[0] = 2022;
+        abc[1] = 978;
+        abc[2] = 133;
+        System.out.println(abc[0]);
+        System.out.println(abc[1]);
+        System.out.println(abc[2]);
+
+        for (int j = 0; j < 3; j++) {
+            System.out.println(abc[j]);
+        }
 
 
-        // System.out.println("Bugün günlerden "+day[2]);
+        int[] x = new int[3];
+        x[0] = 2;
+        x[1] = 3;
+        x[2] = 5;
+        System.out.println(x[0] * x[0]);
+        System.out.println(x[1] * x[1]);
+        System.out.println(x[2] * x[2]);
 
 
-        //haftanın 3 günün çarşamba olup olmadığını kontrol edin
-        //  çarşamba ise  bugün günlerden çarşambadır
-        //  çarşamba değil ise  bugün günlerden çarşamba değildir.
+        for (int k = 0; k < 2; k++) {
+            System.out.println(x[k * k]);
+
+        }
+
+        String[] q = new String[7];
+        q[0] = "pazartesi";
+        q[1] = "salı";
+        q[2] = "carsamba";
+        q[3] = "persembe";
+        q[4] = "cuma";
+        q[5] = "cumartesi";
+        q[6] = "pazar";
+        System.out.println("bugun gunlerden " + q[2]);
+
+        //  String [] q={0,1,2,3,4,5,6,7};   üsttekinin aynısı bu sekilde de kullanılabilir..*************************************************
+        // String q[]={pazartesi,,salı,carsamba,persembe,cuma,cumartesi,pazar);    ya da böylr kullan..***************************************
+
+        if (q[2].equals("carsamba")) {
+            System.out.println("haftanin ucuncu gunu carsambadir");
+
+        } else {
+            System.out.println("haftanin ucuncu gunu carsamba degildir");
+
+        }
 
 
-// günlerin içerinde cuma var mıdır. varsa true yoksa
-// false şeklinde ekrana bir değer yazdırın
- /*       String[] day = new String[7];
-        day[0] = "cuma";
-        day[1] = "cuma";
-        day[2] = "dsa";
-        day[3] = "Perşembe";
-        day[4] = "cuma";
-        day[5] = "cumartesi";
-        day[6] = "cuma";
-        int count = 0;
-        for (int i = 0; i < 7; i++) {
-            if (day[i].equalsIgnoreCase("cuma")) {
-                count++;
+        //günlerde cuma var mıdır varsa true yoksa false yazdır.
+        for (int h = 0; h < 7; h++) {
+            if (q[h].equals("cuma")) {
+                System.out.println(true);
+
+            } else {
+                System.out.println("");
+
             }
+
         }
-        if(count>0){
-            System.out.println("arrayimin içerisinde "+count+" tane cuma kelimesi vardır");
+
+        String isim = "htu";
+        String j[] = {
+                "htu", "talha", "uysal", "michael"
+        };
+                  /* Random random=new Random();
+        int w= random.nextInt(100);
+       System.out.println(w);*/
+        //20 boyutunda bir dizi oluşturun ve her bir index’ine random 0 ile 100 arasın bir değer
+        //atayın. Sonrasında 17 index numarasındaki veriyi ekrana yazdırın
+
+
+        Random random = new Random();
+        int[] sayi5 = new int[20];
+        for (int m = 0; m < 20; m++) {
+            sayi5[m] = random.nextInt(100);
+            // System.out.println(m)+" sayi :"+ sayi5[m];
+
         }
-        else{
-            System.out.println(false); }
-        int[] array=new int[5];
-        int array2[];
-        array2=new  int[5];
-       // int[] array3={1,2,3,4,5,6,7,8};
-        int[] array3=new int[8];
-        array3[0]=154654;
-        array3[1]=21354;
-        array3[2]=3;
-        array3[3]=421312;
-        array3[4]=554654;
-        array3[5]=621312;
-        array3[6]=754354;
-        array3[7]=813;
-        String isim="Harun";
-        String str[]={"harun","mehmet","ahmet","can","ihsan"};
-       int count=0;
-       for (int i=0; i<5; i++){
-           if(str[i].equalsIgnoreCase(isim)){
-               count++;
-           }
-       }
-if(count>0){
-    System.out.println("isminiz grup içerisinde vardır");
-}else{
-    System.out.println("isminiz grup içerisinde yoktur");
-}
-    Random random=new Random();
-    int x= random.nextInt(100);
-    System.out.println(x);
-        */
-
-        //20 boyutunda bir dizi oluşturun ve
-// her bir index’ine random 0 ile 100
-// arasın bir değer atayın. Sonrasında 17 index
-// numarasındaki veriyi ekrana yazdırın.
-
-        int[] sayi=new int[20];
-        Random random=new Random();
-        int tek=0,cift=0;
-        for(int i=0; i< sayi.length; i++){
-
-            sayi[i]= random.nextInt(100);
-            //System.out.println((i)+" sayi :"+sayi[i]);
-            if(sayi[i]%2==0){
+        System.out.println("17.sayi:" + sayi5[17]);
+        //array içindeki tek ve cift sayılar kaac adettir.
+        int tek = 0, cift = 0;
+        for (int o = 0; o < 20; o++) {
+            if (sayi[o] % 2 == 0) {
                 cift++;
-            }
-            else{
+
+            } else {
                 tek++;
+
             }
+
+        }
+        System.out.println("tek = " + tek);
+        System.out.println("cift = " + cift);
+
+        int[] iArry = {10, 20, 30, 40, 50};
+        for (int xi : iArry) {
+            System.out.println(xi);
+
+        }
+        for (int xi = 0; xi < iArry.length; xi++) {
+            System.out.println(xi);
+
         }
 
+        String[] sArry = new String[3];
+        sArry[0] = "huseyin";
+        sArry[1] = "talha";
+        sArry[2] = "uysal";
+        System.out.println(sArry[0].length());   //kelime kac harfli onu hesapaldı. 1 den baslayarak saydı.
 
-
-        int[] sayi2=new int[20];
-        String str[]={"harunasdasdasdas","mehmet","ahmet","can","ihsan"};
-        System.out.println("String Array usunluğu "+   str[0].length());
-
-
-
-        // System.out.println("Array usunluğu "+     sayi[0].length);
-
-
-// arrayimizin içerisindeki çift/tek sayılarımız kaç adettir.
-
-
-
-        //System.out.println("tek sayı adedi: "+tek);
-        // System.out.println("cift sayı adedi: "+cift);
-
+        System.out.println(Arrays.toString(sArry));
+        System.out.println(Arrays.toString(iArry));
 
     }
 
 }
+

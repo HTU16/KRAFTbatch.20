@@ -2,7 +2,7 @@ package Day_10_Switch;
 
 import java.util.Scanner;
 
-public class Switch {       // harun talha calısma
+public class Switch {
 
     public static void main(String[] args) {
 

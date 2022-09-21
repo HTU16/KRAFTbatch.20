@@ -70,6 +70,9 @@ public class Tasks {
     }
 
 
-
+//contains *************************************************************************************************
+     //Bir string değer içinde başka bir string değeri aratırken
+     //kullanabileceğimiz bir method dur. Boolean değer döndürür. Eğer
+     //aratılan string değeri bulursa true bulamazsa false döndürür
 
 }
