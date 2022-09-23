@@ -63,7 +63,7 @@ int c=5;
         System.out.println(ch);
 short yil=2020;
 byte yas=20;
-String isim="Ahmet";
+String isim="htu";
 char a='a';
 System.out.println(yil+" de "+isim+
         " "+yas+" yasinda olacak.");

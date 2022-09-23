@@ -5,7 +5,7 @@ public class Parent {
     protected int num=100;
     static int x;
 
-    /* static {System.out.println("static initalize metod çalıştı");
+     static {System.out.println("static initalize metod çalıştı");
     }
      {
      x++;
@@ -13,7 +13,7 @@ public class Parent {
      }
      {
      System.out.println("2.Instance initalize metod çalıştı");}
- */
+
     Parent(){
 
     }

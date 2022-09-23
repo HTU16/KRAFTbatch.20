@@ -16,7 +16,7 @@ package Day_40_Interface;
     }
     class chicken implements Food{
         //chicken class ı hiyerarşik olarak 2 interface de bağlı olduğu için
-//    tum abstract methodların rın implementasyonlarını yapmak zorunda
+//    tum abstract methodların run implementasyonlarını yapmak zorunda
         @Override
         public void meal() {
 
