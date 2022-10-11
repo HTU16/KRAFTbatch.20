@@ -1,5 +1,7 @@
 package Day_6_Operators;
 
+import java.util.Scanner;
+import  java.util.*;
 public class ScannerCalisma {
 
     public static void main(String[] args) {
@@ -37,7 +39,7 @@ public class ScannerCalisma {
         //dışardan Ali nin quiz yarı final ve final notlarını alınız
         // quiz %20 yarı final notu %30 final %50   notu nedir?
 
-        /* Scanner scan=new Scanner(System.in);
+        Scanner scan=new Scanner(System.in);
       System.out.println(" not hesaplama programina hos geldiniz");
        System.out.print( " guiz notunuzu girin");
        double quizNotu=scan.nextDouble();
@@ -46,7 +48,7 @@ public class ScannerCalisma {
        System.out.print("final notunu gir");
        double finalNotu=scan.nextDouble();
         double yilSonuNotu=quizNotu*0.2+vizeNotu*0.3+finalNotu*0.5;
-       System.out.println("yilSonuNotu =" +yilSonuNotu);*/
+       System.out.println("yilSonuNotu =" +yilSonuNotu);
 
         /* Scanner scan=new Scanner (System.in);                  //4 yaz.
        final double pi=3.14;

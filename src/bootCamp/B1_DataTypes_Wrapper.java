@@ -48,9 +48,9 @@ public class B1_DataTypes_Wrapper {
         Integer num = 10;
         int n = num;//unboxing
 
-        System.out.println(num == n);    //sadece değerlerini ölçüyor true..
+        System.out.println(num == n);    //her türlü şeye bakar.. true?
         System.out.println(10 == 10);
-        System.out.println("num.equals(n) = " + num.equals(n));   //her türlü şeye bakar..
+        System.out.println("num.equals(n) = " + num.equals(n));   //sadece değerlerini ölçüyor true..
         System.out.println("num.equals(n) = " + num.equals(n));
 
         System.out.println("Integer.MAX_VALUE = " + Integer.MAX_VALUE);//2147483647

@@ -106,7 +106,7 @@ public class LogicOperators {
         System.out.println("not3 : " + sonuc3);
         boolean sonuc4 = !(ort == 100);
         System.out.println("not4 : " + sonuc4);
-        System.out.println("SAYIN H.TALHA UYSAL notlariniz yukaridaki gibidir");
+        System.out.println("Sayin "+isim+ " notlariniz yukaridaki gibidir");
 
     }
 }

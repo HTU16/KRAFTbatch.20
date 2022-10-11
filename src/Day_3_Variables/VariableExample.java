@@ -94,25 +94,27 @@ int adasdasdhsjkfhsabjfaksjdlksfjkbasjknmödnasml
 
         Scanner scan=new Scanner(System.in);
 
-        System.out.print("lütfen bir kelime yazın: ");
-        String a=scan.nextLine();
-        System.out.println("Girilen harf:"+ a);
+//        System.out.print("lütfen bir kelime yazın: ");
+//        String a=scan.nextLine();
+//        System.out.println("Girilen harf:"+ a);
+//
+//        System.out.print("lütfen bir sayı girin: ");
+//        int b=scan.nextInt();
+//        System.out.println("Girilen sayi:"+ b);
+
+
+
 
         System.out.print("lütfen bir sayı girin: ");
-        int b=scan.nextInt();
-        System.out.println("Girilen sayi:"+ b);
-
-
-
-
-
-        int sayi=31502;
+        int sayi=scan.nextInt();
         int saniye=sayi%60;
         int dakika=sayi%3600/60;
         int saat=sayi/3600;
         System.out.println("saat: "+saat+"\ndakika: "+dakika+"\nsaniye: "+saniye);
 
-        System.out.println(sayi);
+        System.out.println("girilen saniye:" + sayi+" saniye");
+
+
 
 
 
