@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class CollectionSort {
+public class CollectionSort {              //sıralama yapmak için collection.sort kullanılır..
 
     public static void main(String[] args) {
 

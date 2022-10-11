@@ -60,13 +60,13 @@ public class ListHomeWork {
     }
 
     public static List<String> allPalindromClearList(List<String> list){
-
+        // 0 1 2 3 4
         // List<String> newList=new ArrayList<>(list);
-        for ( int i = 0; i <list.size();) {
-            String reverStr=reversePalindrom(list.get(i));
+        for ( int i = 0; i <list.size();) {   // i++ yapmadık
+            String Str=reversePalindrom(list.get(i));
 
-            if(list.contains(reverStr)){
-                list.removeAll(Arrays.asList(list.get(i),reverStr));
+            if(list.contains(Str)){
+                list.removeAll(Arrays.asList(list.get(i),Str));
                 continue;
             }
             i++;

@@ -35,7 +35,7 @@ public class SetExample {
         str=str.replaceAll(" ","");
         String[] strArray=str.split("");
 
-        Set<String>newSet=new HashSet<>();                   //hashset
+        Set<String>newSet=new HashSet<>();                //hashset : kendisine kafasına  göre sıralama yapar
         for (int i = 0; i <strArray.length ; i++) {
             newSet.add(strArray[i]);
         }
@@ -46,8 +46,8 @@ public class SetExample {
         System.out.println("newList = " + newList);
 
         Set<String> HashSet=new HashSet<>(Arrays.asList(strArray));
-        Set<String> treeSet=new TreeSet<>(Arrays.asList(strArray));              //treeset
-
+        Set<String> treeSet=new TreeSet<>(Arrays.asList(strArray));              //treeset: doğal sıralama yapar.. yineleyen verileri kabul etmez.
+                                                                                 // daha hızlıdır.
         System.out.println(HashSet);
         System.out.println(treeSet);
 
