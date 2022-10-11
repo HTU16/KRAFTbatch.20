@@ -37,7 +37,7 @@ public class MapInterfaceStudy_2 {
 //            abuzer = pala-->22
 //            abuzer = hüsnücoban-->24
 //            abuzer = burhanaltintop-->24
-//            abuzer = cerrahpasalihalit-->24
+//           abuzer = cerrahpasalihalit-->24
 
 
         }
