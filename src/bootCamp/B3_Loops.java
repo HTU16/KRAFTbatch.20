@@ -68,7 +68,7 @@ public class B3_Loops {
         int i2 = sc.nextInt();
         //1
         for (int j = Integer.max(i1,i2); j >=Integer.min(i1,i2) ; j--) {
-            if (j%7==0)break;//true oldugu anda donguyu keser loop un dısına cıkar
+            if (j%7==0)break;//true oldugu anda donguyu keser loop un dışına cıkar
             System.out.print(" " + j);
         }
         System.out.println();
