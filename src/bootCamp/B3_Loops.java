@@ -78,6 +78,28 @@ public class B3_Loops {
             System.out.println(t+" ");
         }
 
+        //label works with break and continue
+        //verilen aralıktaki prime numberları(asal sayı) bulunuz.
+
+        //1-prime number sadece 1 e ve kendine bolunen sayılar.
+        //2-hersayı 1 e bolunebilir loop 2 den başlamalı
+        //3-iç içe 2 loop olmalı dıstak sayı aralıığını tek tek gezmeli gezmeli
+        //4-içdeki loop dışrakinden gelen her sayıyı 2 dahil son sayıya kadar tüm sayılara bolmeli ve tam bir bolum olup olmadıgını denetlemeli
+
+        //7 8 9 10 11 12 13 14
+        System.out.println("----------");
+        label : for (int j = Math.min(i1,i2); j <=Math.max(i1,i2); j++) {
+//            7---2,3,4,5,6
+//            8---2,3,4,5,6,7
+            for (int k = 2; k < j; k++) {
+                if (j%k==0){
+                    continue label;
+                }
+            }
+
+            System.out.println(j+" ");
+        }
+
 
 
 
